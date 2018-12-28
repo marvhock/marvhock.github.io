@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Marvin Hockenjos on marvhock</title>
+    <link>https://www.marvhock.com/</link>
+    <description>Recent content in Marvin Hockenjos on marvhock</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 20 Dec 2018 20:00:46 +0100</lastBuildDate>
+    
+	<atom:link href="https://www.marvhock.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Working with BEM</title>
+      <link>https://www.marvhock.com/blog/working-with-bem/</link>
+      <pubDate>Thu, 20 Dec 2018 20:00:46 +0100</pubDate>
+      
+      <guid>https://www.marvhock.com/blog/working-with-bem/</guid>
+      <description>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</description>
+    </item>
+    
+    <item>
+      <title>Introduction to GraphQL</title>
+      <link>https://www.marvhock.com/blog/introduction-to-graphql/</link>
+      <pubDate>Wed, 19 Dec 2018 20:00:46 +0100</pubDate>
+      
+      <guid>https://www.marvhock.com/blog/introduction-to-graphql/</guid>
+      <description>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</description>
+    </item>
+    
+    <item>
+      <title>Building static pages with Hugo</title>
+      <link>https://www.marvhock.com/blog/building-static-pages-with-hugo/</link>
+      <pubDate>Tue, 18 Dec 2018 19:50:33 +0100</pubDate>
+      
+      <guid>https://www.marvhock.com/blog/building-static-pages-with-hugo/</guid>
+      <description>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</description>
+    </item>
+    
+    <item>
+      <title>Hello World</title>
+      <link>https://www.marvhock.com/blog/hello-world/</link>
+      <pubDate>Mon, 17 Dec 2018 21:00:00 +0100</pubDate>
+      
+      <guid>https://www.marvhock.com/blog/hello-world/</guid>
+      <description>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</description>
+    </item>
+    
+    <item>
+      <title>Imprint &amp; Privacy Policy</title>
+      <link>https://www.marvhock.com/imprint/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.marvhock.com/imprint/</guid>
+      <description>Impressum und Datenschutzerklärung (DE - German) Angaben gemäß § 5 TMG.
+Kontakt E-Mail: hello@marvhock.com
+Verantwortlich für den Inhalt Nach § 55 Abs. 2 RStV:
+Marvin Hockenjos
+Albrecht-Dürer-Str. 65
+50259 Pulheim
+Haftung für Inhalte Die Inhalte unserer Seiten wurden mit größter Sorgfalt erstellt. Für die Richtigkeit, Vollständigkeit und Aktualität der Inhalte können wir jedoch keine Gewähr übernehmen. Als Diensteanbieter sind wir gemäß § 7 Abs.1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich.</description>
+    </item>
+    
+  </channel>
+</rss>
