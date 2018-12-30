@@ -22,28 +22,28 @@
     
     <item>
       <title>Working with BEM</title>
-      <link>https://www.marvhock.com/blog/working-with-bem/</link>
+      <link>https://www.marvhock.com/blog/bem-introduction/</link>
       <pubDate>Thu, 20 Dec 2018 20:00:46 +0100</pubDate>
       
-      <guid>https://www.marvhock.com/blog/working-with-bem/</guid>
+      <guid>https://www.marvhock.com/blog/bem-introduction/</guid>
       <description>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</description>
     </item>
     
     <item>
       <title>Introduction to GraphQL</title>
-      <link>https://www.marvhock.com/blog/introduction-to-graphql/</link>
+      <link>https://www.marvhock.com/blog/graphql-introduction/</link>
       <pubDate>Wed, 19 Dec 2018 20:00:46 +0100</pubDate>
       
-      <guid>https://www.marvhock.com/blog/introduction-to-graphql/</guid>
+      <guid>https://www.marvhock.com/blog/graphql-introduction/</guid>
       <description>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</description>
     </item>
     
     <item>
       <title>Building static pages with Hugo</title>
-      <link>https://www.marvhock.com/blog/building-static-pages-with-hugo/</link>
+      <link>https://www.marvhock.com/blog/hugo-introduction/</link>
       <pubDate>Tue, 18 Dec 2018 19:50:33 +0100</pubDate>
       
-      <guid>https://www.marvhock.com/blog/building-static-pages-with-hugo/</guid>
+      <guid>https://www.marvhock.com/blog/hugo-introduction/</guid>
       <description>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</description>
     </item>
     
@@ -57,12 +57,21 @@
     </item>
     
     <item>
-      <title>Hello World</title>
-      <link>https://www.marvhock.com/blog/hello-world/</link>
-      <pubDate>Mon, 17 Dec 2018 21:00:00 +0100</pubDate>
+      <title>bar</title>
+      <link>https://www.marvhock.com/unterricht/basics/bar/</link>
+      <pubDate>Mon, 17 Dec 2018 21:00:00 +0110</pubDate>
       
-      <guid>https://www.marvhock.com/blog/hello-world/</guid>
-      <description>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</description>
+      <guid>https://www.marvhock.com/unterricht/basics/bar/</guid>
+      <description>fwfefwefwfwwfwefwe</description>
+    </item>
+    
+    <item>
+      <title>baz</title>
+      <link>https://www.marvhock.com/unterricht/basics/baz/</link>
+      <pubDate>Mon, 17 Dec 2018 21:00:00 +0111</pubDate>
+      
+      <guid>https://www.marvhock.com/unterricht/basics/baz/</guid>
+      <description>fwfefwefwfwwfwedwdwwfwe</description>
     </item>
     
     <item>
@@ -73,10 +82,7 @@
       <guid>https://www.marvhock.com/imprint/</guid>
       <description>Impressum und Datenschutzerklärung (DE - German) Angaben gemäß § 5 TMG.
 Kontakt E-Mail: hello@marvhock.com
-Verantwortlich für den Inhalt Nach § 55 Abs. 2 RStV:
-Marvin Hockenjos
-Albrecht-Dürer-Str. 65
-50259 Pulheim
+Verantwortlich für den Inhalt Nach § 55 Abs. 2 RStV: Marvin Hockenjos Albrecht-Dürer-Str. 65 50259 Pulheim
 Haftung für Inhalte Die Inhalte unserer Seiten wurden mit größter Sorgfalt erstellt. Für die Richtigkeit, Vollständigkeit und Aktualität der Inhalte können wir jedoch keine Gewähr übernehmen. Als Diensteanbieter sind wir gemäß § 7 Abs.1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich.</description>
     </item>
     

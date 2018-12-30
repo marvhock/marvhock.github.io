@@ -8,11 +8,6 @@
   </url>
   
   <url>
-    <loc>https://www.marvhock.com/blog/noob/</loc>
-    <lastmod>2018-12-17T21:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.marvhock.com/unterricht/</loc>
   </url>
   
@@ -21,17 +16,17 @@
   </url>
   
   <url>
-    <loc>https://www.marvhock.com/blog/working-with-bem/</loc>
+    <loc>https://www.marvhock.com/blog/bem-introduction/</loc>
     <lastmod>2018-12-20T20:00:46+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.marvhock.com/blog/introduction-to-graphql/</loc>
+    <loc>https://www.marvhock.com/blog/graphql-introduction/</loc>
     <lastmod>2018-12-19T20:00:46+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.marvhock.com/blog/building-static-pages-with-hugo/</loc>
+    <loc>https://www.marvhock.com/blog/hugo-introduction/</loc>
     <lastmod>2018-12-18T19:50:33+01:00</lastmod>
   </url>
   
@@ -41,8 +36,18 @@
   </url>
   
   <url>
-    <loc>https://www.marvhock.com/blog/hello-world/</loc>
-    <lastmod>2018-12-17T21:00:00+01:00</lastmod>
+    <loc>https://www.marvhock.com/unterricht/basics/bar/</loc>
+    <lastmod>2018-12-17T21:00:00+01:10</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.marvhock.com/unterricht/basics/baz/</loc>
+    <lastmod>2018-12-17T21:00:00+01:11</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.marvhock.com/unterricht/basics/</loc>
+    <lastmod>2018-12-17T21:00:00+01:10</lastmod>
   </url>
   
   <url>
