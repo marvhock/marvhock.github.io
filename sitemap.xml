@@ -8,6 +8,11 @@
   </url>
   
   <url>
+    <loc>https://www.marvhock.com/blog/noob/</loc>
+    <lastmod>2018-12-17T21:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.marvhock.com/unterricht/</loc>
   </url>
   
@@ -28,6 +33,11 @@
   <url>
     <loc>https://www.marvhock.com/blog/building-static-pages-with-hugo/</loc>
     <lastmod>2018-12-18T19:50:33+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.marvhock.com/blog/hello-world/</loc>
+    <lastmod>2018-12-17T21:00:00+01:00</lastmod>
   </url>
   
   <url>
