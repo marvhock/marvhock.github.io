@@ -1,5 +1,4 @@
 User-agent: *
-Disallow: /layouts/
-Allow: /
+Disallow: /marvhock-legacy/
 
 Sitemap: https://marvhock.com/sitemap.xml
