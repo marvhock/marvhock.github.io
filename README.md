@@ -1,13 +1,17 @@
-# marvhock
-Source code of my personal website - https://www.marvhock.com  
-This site is build with [Hugo](https://gohugo.io/), a static site generator written in [Go](https://golang.org/).
+# marvhock.com
 
-# Usage
+This repository contains the source code of my personal website: [marvhock.com](https://www.marvhock.com)  
+Built with [Hugo](https://gohugo.io/), a fast static site generator written in [Go](https://golang.org/).
+
+---
+
+## 🚀 Quick Start
+
 1. [Install Hugo](https://gohugo.io/getting-started/installing)
-2. run `npm i`
-3. run `npm run build`
-4. run `hugo server -F -D`
-5. Open http://localhost:1313/
+2. Install dependencies: `npm install`
+3. Build the frontend: `npm run build`
+4. Start local server: `hugo server -F -D`
+5. Visit: [http://localhost:1313](http://localhost:1313)
 
-For Development run `npm start` and `hugo server -F -D` simultaniously.  
-For Deployment run `./deploy.sh`
+For development, run `npm start` and `hugo server -F -D` simultaneously.  
+For deployment, use the script: `./deploy.sh`
