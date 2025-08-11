@@ -1,13 +1,15 @@
+@use '../settings' as settings;
+
 .footer {
   text-align: center;
-  color: $color-red;
+  color: settings.$color-red;
   border-top: 2px dashed;
   padding: 25px 0 80px;
   margin: 7rem auto 0;
   width: 660px;
   max-width: 90%;
 
-  @media screen and (max-width: $container-width + 20) {
+  @media screen and (max-width: settings.$container-width + 20) {
     width: auto;
   }
 

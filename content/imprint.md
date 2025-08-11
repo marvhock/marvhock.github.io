@@ -6,7 +6,7 @@ description: Impressum und Datenschutzerklärung für marvhock.com
 ---
 
 # Impressum und Datenschutzerklärung (DE - German)
-<span>Angaben gemäß § 5 TMG.</span>
+Angaben gemäß § 5 TMG.
 
 ## Kontakt
 E-Mail: hello@marvhock.com

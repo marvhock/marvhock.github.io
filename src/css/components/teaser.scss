@@ -1,11 +1,13 @@
+@use '../settings' as settings;
+
 .teaser {
   display: flex;
   align-items: center;
   position: relative;
   padding: 25px 0;
-  border-bottom: 1px dashed $color-border;
+  border-bottom: 1px dashed settings.$color-border;
 
-  @media screen and (max-width: $media-max-small) {
+  @media screen and (max-width: settings.$media-max-small) {
     flex-direction: column;
 
     &--reverse {
@@ -15,7 +17,7 @@
   }
 
   &:nth-of-type(odd) {
-    background: $color-grey-light;
+    background: settings.$color-grey-light;
   }
 
   &--center {
@@ -24,9 +26,9 @@
 
   &--width {
     &-medium {
-      $padding: calc((100% - 930px) / 2);
-      padding-left: $padding;
-      padding-right: $padding;
+      $teaserPadding: calc((100% - 930px) / 2);
+      padding-left: $teaserPadding;
+      padding-right: $teaserPadding;
       box-sizing: content-box;
     }
   }
@@ -50,11 +52,11 @@
     height: auto;
     margin-bottom: 35px;
 
-    @media screen and (min-width: $media-max-large) {
+    @media screen and (min-width: settings.$media-max-large) {
       max-width: none;
     }
 
-    @media screen and (min-width: $media-min-small) {
+    @media screen and (min-width: settings.$media-min-small) {
       max-width: 35vw;
       margin-bottom: 0;
     }
@@ -62,7 +64,7 @@
     &--small {
       width: 200px;
 
-      @media screen and (min-width: $media-min-small) {
+      @media screen and (min-width: settings.$media-min-small) {
         width: 230px;
         max-width: 25vw;
         margin-bottom: 0;
@@ -74,8 +76,8 @@
       height: auto;
       max-width: none;
 
-      @media screen and (min-width: $media-min-small) {
-        border: 16px solid $color-yellow;
+      @media screen and (min-width: settings.$media-min-small) {
+        border: 16px solid settings.$color-yellow;
         width: 285px;
         margin-left: -40px;
       }
@@ -91,7 +93,7 @@
       padding-left: 0;
     }
 
-    @media screen and (max-width: $media-max-small) {
+    @media screen and (max-width: settings.$media-max-small) {
       padding: 0;
     }
   }
@@ -100,7 +102,7 @@
     font-size: 1.9rem;
     margin: 0 0 10px;
 
-    @media screen and (max-width: $media-max-large) {
+    @media screen and (max-width: settings.$media-max-large) {
       font-size: 2.2rem;
     }
 
@@ -111,7 +113,7 @@
   }
 
   &__subheadline {
-    color: $color-grey;
+    color: settings.$color-grey;
     font-size: 1.5rem;
     margin-top: -10px;
   }
@@ -121,12 +123,12 @@
     font-size: 1.2rem;
     line-height: 1.4;
 
-    @media screen and (max-width: $media-max-large) {
+    @media screen and (max-width: settings.$media-max-large) {
       font-size: 1.4rem;
     }
   }
 
-  @media screen and (max-width: $media-min-extralarge) {
+  @media screen and (max-width: settings.$media-min-extralarge) {
     padding-left: 15px;
     padding-right: 15px;
   }

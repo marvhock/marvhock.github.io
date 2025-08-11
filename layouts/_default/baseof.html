@@ -1,25 +1,29 @@
-<!DOCTYPE HTML>
-{{ if eq .Page.Section "unterricht" }}
-    {{ .Scratch.Set "langCode" "de" }}
-{{ end }}
-<html lang="{{ .Scratch.Get "langCode" | default $.Site.LanguageCode }}">
+<!DOCTYPE html>
+{{- /* Sprache je nach Section setzen */ -}}
+{{- if eq .Section "unterricht" -}}
+{{- .Scratch.Set "langCode" "de" -}}
+{{- end -}}
+
+{{- /* Site-Fallback robust auflösen (neuere/ältere Hugo-Versionen) */ -}}
+{{- $siteLang := or .Site.LanguageCode .Site.Language.LanguageCode -}}
+{{- $lang := or (.Scratch.Get "langCode") $siteLang -}}
+
+<html lang="{{ $lang }}">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="🦄 {{ .Description }}">
-    {{ .Hugo.Generator }}
-    {{ partial "favicons.html" . }}
-    {{ partial "open-graph.html" . }}
-    <title>
-        {{ with .Params.Title }} {{ . }} | {{ end }} {{ .Site.Title }}
-    </title>
-    {{ partial "style.html" . }}
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="🦄 {{ .Description }}">
+  {{- hugo.Generator -}}
+  {{- partial "favicons.html" . -}}
+  {{- partial "open-graph.html" . -}}
+  <title>{{ with .Params.Title }}{{ . }} | {{ end }}{{ .Site.Title }}</title>
+  {{- partial "style.html" . -}}
 </head>
 <body>
-    {{ partial "header.html" . }}
-    <main>
-        {{ block "main" . }}{{ end }}
-    </main>
-    {{ partial "footer.html" . }}
+{{- partial "header.html" . -}}
+<main>
+  {{- block "main" . }}{{ end -}}
+</main>
+{{- partial "footer.html" . -}}
 </body>
 </html>

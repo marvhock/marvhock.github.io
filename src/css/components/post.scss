@@ -1,3 +1,5 @@
+@use '../settings' as settings;
+
 .post {
   > p:first-child:first-letter {
     text-transform: capitalize;
@@ -13,7 +15,7 @@
     a:link,
     a:visited,
     a:active {
-      color: $color-yellow;
+      color: settings.$color-yellow;
     }
   }
 
@@ -21,7 +23,7 @@
     a:link,
     a:visited,
     a:active {
-      color: $color-blue;
+      color: settings.$color-blue;
     }
   }
 
@@ -29,7 +31,7 @@
     a:link,
     a:visited,
     a:active {
-      color: $color-green;
+      color: settings.$color-green;
     }
   }
 
@@ -37,9 +39,7 @@
     a:link,
     a:visited,
     a:active {
-      color: $color-orange;
+      color: settings.$color-orange;
     }
   }
 }
-
-

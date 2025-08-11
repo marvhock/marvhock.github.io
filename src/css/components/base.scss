@@ -1,10 +1,12 @@
+@use '../settings' as settings;
+
 html,
 body {
   margin: 0;
   padding: 0;
   font-size: 12px;
 
-  @media screen and (min-width: $media-min-large) {
+  @media screen and (min-width: settings.$media-min-large) {
     font-size: 16px;
   }
 }
@@ -21,12 +23,12 @@ html {
 
 body {
   font-family: 'Varela Round', sans-serif;
-  color: $color-base;
+  color: settings.$color-base;
 }
 
 ::selection {
-  color: $color-dark;
-  background: $color-yellow;
+  color: settings.$color-dark;
+  background: settings.$color-yellow;
 }
 
 a {
@@ -50,8 +52,8 @@ p {
 }
 
 .container {
-  @media screen and (min-width: $container-width) {
-    width: $container-width;
+  @media screen and (min-width: settings.$container-width) {
+    width: settings.$container-width;
     margin-left: auto;
     margin-right: auto;
   }
@@ -66,7 +68,7 @@ p {
   max-width: 90%;
   margin: 0 auto;
 
-  @media screen and (max-width: $container-width) {
+  @media screen and (max-width: settings.$container-width) {
     padding-left: 15px;
     padding-right: 15px;
   }
@@ -79,18 +81,18 @@ p {
 
 .text {
   &--yellow {
-    color: $color-yellow;
+    color: settings.$color-yellow;
   }
 
   &--blue {
-    color: $color-blue;
+    color: settings.$color-blue;
   }
 
   &--green {
-    color: $color-green;
+    color: settings.$color-green;
   }
 
   &--orange {
-    color: $color-orange;
+    color: settings.$color-orange;
   }
 }
