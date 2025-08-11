@@ -12,4 +12,5 @@ npm-debug.log
 # Build
 .hugo_build.lock
 package-lock.json
-./public/
+/public/
+/static/dist/
