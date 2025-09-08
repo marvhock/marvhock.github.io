@@ -1,33 +1,26 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Basics on marvhock</title>
-    <link>https://www.marvhock.com/unterricht/basics/</link>
+    <link>http://localhost:1313/unterricht/basics/</link>
     <description>Recent content in Basics on marvhock</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Mon, 17 Dec 2018 21:00:00 +0110</lastBuildDate>
-    
-	<atom:link href="https://www.marvhock.com/unterricht/basics/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <atom:link href="http://localhost:1313/unterricht/basics/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>bar</title>
-      <link>https://www.marvhock.com/unterricht/basics/bar/</link>
+      <link>http://localhost:1313/unterricht/basics/bar/</link>
       <pubDate>Mon, 17 Dec 2018 21:00:00 +0110</pubDate>
-      
-      <guid>https://www.marvhock.com/unterricht/basics/bar/</guid>
-      <description>fwfefwefwfwwfwefwe</description>
+      <guid>http://localhost:1313/unterricht/basics/bar/</guid>
+      <description>&lt;p&gt;fwfefwefwfwwfwefwe&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>baz</title>
-      <link>https://www.marvhock.com/unterricht/basics/baz/</link>
+      <link>http://localhost:1313/unterricht/basics/baz/</link>
       <pubDate>Mon, 17 Dec 2018 21:00:00 +0111</pubDate>
-      
-      <guid>https://www.marvhock.com/unterricht/basics/baz/</guid>
-      <description>fwfefwefwfwwfwedwdwwfwe</description>
+      <guid>http://localhost:1313/unterricht/basics/baz/</guid>
+      <description>&lt;p&gt;fwfefwefwfwwfwedwdwwfwe&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>
