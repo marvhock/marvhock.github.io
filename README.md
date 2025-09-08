@@ -17,5 +17,5 @@ Built with [Hugo](https://gohugo.io/), a fast static site generator written in [
 run `npm start` and `hugo server -F -D` simultaneously.  
 
 ## ✈️ Deployment 
-use the script: `./deploy.sh`
-.
+~~use the script: `./deploy.sh`~~  
+Build and Extract Public Folder Contents to gh-pages Repo.
