@@ -4,9 +4,9 @@ html,
 body {
   margin: 0;
   padding: 0;
-  font-size: 12px;
+  font-size: 14px;
 
-  @media screen and (min-width: settings.$media-min-large) {
+  @media (min-width: settings.$breakpoint-sm) {
     font-size: 16px;
   }
 }
@@ -22,8 +22,11 @@ html {
 }
 
 body {
-  font-family: 'Varela Round', sans-serif;
+  font-family: "Noto Sans", sans-serif;
   color: settings.$color-base;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 ::selection {
@@ -33,66 +36,39 @@ body {
 
 a {
   text-decoration: none;
+  color: settings.$color-link;
+}
+
+h1, h2, p {
+  margin: 0;
 }
 
 h1 {
-  font-size: 1.9rem;
-  margin-bottom: 3rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
 }
 
 h2 {
-  font-size: 1.6rem;
-  margin-top: 4rem;
+  font-size: 1.25rem;
+  font-weight: 500;
+  margin-bottom: 1.8rem;
 }
 
 p {
-  font-size: 1.28rem;
-  line-height: 1.8;
-  margin-bottom: 2.2rem;
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-bottom: 2rem;
 }
 
 .container {
-  @media screen and (min-width: settings.$container-width) {
-    width: settings.$container-width;
-    margin-left: auto;
-    margin-right: auto;
-  }
+  width: settings.$container-width;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 1.5rem;
 
-  &--center {
-    justify-content: center;
-  }
-}
-
-.content {
-  padding-top: 5rem;
-  max-width: 90%;
-  margin: 0 auto;
-
-  @media screen and (max-width: settings.$container-width) {
-    padding-left: 15px;
-    padding-right: 15px;
-  }
-
-  &__intro-title {
-    font-size: 1.9rem;
-    margin: 1.5rem 0 3rem;
-  }
-}
-
-.text {
-  &--yellow {
-    color: settings.$color-yellow;
-  }
-
-  &--blue {
-    color: settings.$color-blue;
-  }
-
-  &--green {
-    color: settings.$color-green;
-  }
-
-  &--orange {
-    color: settings.$color-orange;
+  @media (max-width: settings.$container-width) {
+    width: 100%;
   }
 }

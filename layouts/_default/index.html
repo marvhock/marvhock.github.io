@@ -1,14 +1,20 @@
 {{ define "main" }}
-    <div class="teaser teaser--reverse teaser--height-large teaser--center">
-        <div class="teaser__content teaser__content--reverse">
-            <h1 class="teaser__headline text--yellow">Marvin Hockenjos</h1>
-            <h2 class="teaser__subheadline">web developer</h2>
-        </div>
-        <img class="teaser__image teaser__image--portrait" alt="Marvin Hockenjos" src="/images/marvin-hockenjos.webp"
-             onerror="this.onerror=null; this.src='/images/marvin-hockenjos.jpg'">
+    <div class="teaser container">
+        <section class="teaser__text">
+            <h1>Hi, I’m Marvin!</h1>
+            <h2>Senior Frontend Developer</h2>
+            {{.Content}}
+            <section class="social">
+                {{ range $.Site.Params.social }}
+                    <a class="social__item" href="{{ .url }}">
+                        {{ readFile (printf "static/images/%s.svg" (lower .name)) | replaceRE "^<svg" "<svg class=\"social__logo\"" | safeHTML }}
+                        <span class="social__text">{{ .name }}</span>
+                    </a>
+                {{ end }}
+            </section>
+        </section>
+        <section class="teaser__image-wrapper">
+            <img class="teaser__image" alt="Marvin Hockenjos" src="/images/marvin-hockenjos.jpg">
+        </section>
     </div>
-    <section class="container content">
-        <h2 class="content__intro-title text--blue">Hi, I'm Marvin!</h2>
-        {{.Content}}
-    </section>
 {{ end }}
