@@ -18,3 +18,4 @@ run `npm start` and `hugo server -F -D` simultaneously.
 
 ## ✈️ Deployment 
 use the script: `./deploy.sh`
+.
