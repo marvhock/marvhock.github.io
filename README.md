@@ -13,5 +13,8 @@ Built with [Hugo](https://gohugo.io/), a fast static site generator written in [
 4. Start local server: `hugo server -F -D`
 5. Visit: [http://localhost:1313](http://localhost:1313)
 
-For development, run `npm start` and `hugo server -F -D` simultaneously.  
-For deployment, use the script: `./deploy.sh`
+## ⚙️ Development 
+run `npm start` and `hugo server -F -D` simultaneously.  
+
+## ✈️ Deployment 
+use the script: `./deploy.sh`

@@ -1,28 +1,25 @@
 <!DOCTYPE html>
-{{- /* Sprache je nach Section setzen */ -}}
-{{- if eq .Section "unterricht" -}}
-{{- .Scratch.Set "langCode" "de" -}}
-{{- end -}}
-
-{{- /* Site-Fallback robust auflösen (neuere/ältere Hugo-Versionen) */ -}}
 {{- $siteLang := or .Site.LanguageCode .Site.Language.LanguageCode -}}
 {{- $lang := or (.Scratch.Get "langCode") $siteLang -}}
 
 <html lang="{{ $lang }}">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="🦄 {{ .Description }}">
-  {{- hugo.Generator -}}
-  {{- partial "favicons.html" . -}}
-  {{- partial "open-graph.html" . -}}
-  <title>{{ with .Params.Title }}{{ . }} | {{ end }}{{ .Site.Title }}</title>
-  {{- partial "style.html" . -}}
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="🦄 {{ .Description }}">
+    {{- hugo.Generator -}}
+    {{- partial "favicons.html" . -}}
+    {{- partial "open-graph.html" . -}}
+    <title>{{ with .Params.Title }}{{ . }} | {{ end }}{{ .Site.Title }}</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900" rel="stylesheet">
+    {{- partial "style.html" . -}}
 </head>
 <body>
 {{- partial "header.html" . -}}
 <main>
-  {{- block "main" . }}{{ end -}}
+    {{- block "main" . }}{{ end -}}
 </main>
 {{- partial "footer.html" . -}}
 </body>

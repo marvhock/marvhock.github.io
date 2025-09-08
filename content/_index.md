@@ -1,6 +1,6 @@
 ---
 title: Marvin Hockenjos
-description: Private website of Marvin Hockenjos - Webdevelopment and User Interface Design
+description: Personal website of Marvin Hockenjos - Senior Frontend Developer
 type: about
 menu: 
   main:
@@ -8,9 +8,8 @@ menu:
     weight: 1
 ---
 
-I am a frontend developer based in Bochum, Germany.  
-As a developer, I am fascinated by simple solutions and human readable code. I also have a passion for good UI design.
+As a frontend developer, I value close collaboration and thoughtful technological decisions to create user-centered interfaces with real impact.
 
-On a typical working day, you will see me hacking some sass and vanilla js into a symfony codebase, making impressive puns 🤔 and watching out for interesting meetups.
+A respectful team culture is just as important to me as the opportunity to contribute with focus, drive, and a strong sense of responsibility.
 
-For the future, I am looking forward to thankfully contribute back to the open source community and improve myself as a teacher for the next generation of web developers.
+In a trusting and human work environment, I enjoy combining my relaxed nature with reliable and focused execution.

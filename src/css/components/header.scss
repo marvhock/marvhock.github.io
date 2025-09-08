@@ -1,122 +1,15 @@
 @use '../settings' as settings;
 
 .header {
-  $header-height: 100px;
+  margin-top: 3rem;
+  margin-bottom: 4rem;
 
-  border-bottom: 1px dashed settings.$color-border;
-  background: settings.$color-white;
-
-  @media screen and (min-width: settings.$media-min-small) {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: $header-height;
+  @media (min-width: settings.$breakpoint-sm)  {
+    margin-bottom: clamp(3rem, 12dvh, 6.5rem);
   }
 
   &__logo {
-    display: block;
-    width: $header-height;
-    margin: 0 auto;
-
-    @media screen and (min-width: settings.$media-min-small) {
-      margin: 0 45px 0 0;
-    }
-
-    &-image {
-      display: block;
-      width: 100%;
-    }
-
-    path {
-      will-change: transform;
-      transition-property: transform;
-      transition-duration: .3s;
-    }
-
-    &:hover path {
-      transform: translate(-2px, -7px) scale(1.12);
-
-      &:nth-of-type(2n) {
-        transform: translate(-3px, -4px) scale(1.12);
-      }
-
-      &:nth-of-type(3n) {
-        transform: translate(-10px, -10px) scale(1.1);
-      }
-    }
-  }
-
-  &__menu {
-    display: flex;
-    justify-content: space-evenly;
-
-    &-item {
-      position: relative;
-      line-height: 50px;
-      font-size: 15px;
-      padding: 0 14px;
-      display: block;
-      text-decoration: none;
-      color: settings.$color-grey-medium;
-      transition: all .3s;
-
-      @media screen and (min-width: settings.$media-min-small) {
-        font-size: 18px;
-        line-height: 100px;
-      }
-
-      &--active {
-        color: settings.$color-black;
-      }
-
-      &::before {
-        content: '';
-        display: block;
-        width: 0;
-        height: 4px;
-        position: absolute;
-        top: auto;
-        bottom: 0;
-        left: 50%;
-        border-radius: 2px;
-        will-change: transform;
-        transition-property: left, width;
-        transition-duration: .15s;
-        transition-timing-function: ease-in-out;
-      }
-
-      &:nth-child(1)::before {
-        background: settings.$color-yellow;
-      }
-
-      &:nth-child(2)::before {
-        background: settings.$color-blue;
-      }
-
-      &:nth-child(3)::before {
-        background: settings.$color-green;
-      }
-
-      &:nth-child(4)::before {
-        background: settings.$color-orange;
-      }
-
-      &--active {
-        &::before {
-          width: 100%;
-          left: 0;
-        }
-      }
-
-      /* Fix bug on iOS where user needs to click twice because of the hover effect */
-      @media (hover: hover) {
-        &:hover {
-          &::before {
-            width: 100%;
-            left: 0;
-          }
-        }
-      }
-    }
+    width: 142px;
+    color: settings.$color-base;
   }
 }
