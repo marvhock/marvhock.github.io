@@ -1,4 +1,4 @@
 # marvhock.com
 Personal website of Marvin Hockenjos
 
-For source code see https://github.com/marvhock/marvhock
+For source code see Branch **main**
